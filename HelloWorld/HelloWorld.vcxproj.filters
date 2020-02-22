@@ -13,6 +13,9 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="头文件\源文件\course">
+      <UniqueIdentifier>{f09dbcfb-437e-4fc5-858b-135cccad222e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="first.c">
@@ -32,6 +35,18 @@
     </ClCompile>
     <ClCompile Include="point.c">
       <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sort.c">
+      <Filter>头文件\源文件\course</Filter>
+    </ClCompile>
+    <ClCompile Include="array.c">
+      <Filter>头文件\源文件\course</Filter>
+    </ClCompile>
+    <ClCompile Include="pointadd.c">
+      <Filter>头文件\源文件\course</Filter>
+    </ClCompile>
+    <ClCompile Include="arrayissue.c">
+      <Filter>头文件\源文件\course</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -11,6 +11,13 @@ int main() {
 	//关于scanf_s的使用   用到的文件：sanf.c , scanfchar.c
 	//whycome();
 	//关于指针的学习
-	point();
-
+	//point();
+	//输入任意3个数 排序输出
+	//input();
+	//关于数组的学习
+	//array();
+	//指针附加内容的学习
+	//pointadd();
+	//关于循环输出数组的方式 所带来的问题
+	arrayissue();
 }

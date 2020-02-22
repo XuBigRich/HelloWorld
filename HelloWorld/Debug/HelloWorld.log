@@ -1,21 +1,16 @@
-﻿  point.c
-F:\CWorkSpace\HelloWorld\HelloWorld\point.c(34,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int *”
-F:\CWorkSpace\HelloWorld\HelloWorld\point.c(36,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int *”
-F:\CWorkSpace\HelloWorld\HelloWorld\point.c(41,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“char *”
-F:\CWorkSpace\HelloWorld\HelloWorld\point.c(43,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int *”
-F:\CWorkSpace\HelloWorld\HelloWorld\point.c(55,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int *”
-F:\CWorkSpace\HelloWorld\HelloWorld\point.c(58,10): warning C4477: “scanf_s”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 1 拥有了类型“int **”
-F:\CWorkSpace\HelloWorld\HelloWorld\point.c(58,31): warning C4474: scanf_s: 格式字符串中传递的参数太多
-F:\CWorkSpace\HelloWorld\HelloWorld\point.c(58,31): message : 占位符和其参数预计 1 可变参数，但提供的却是 2 参数
-F:\CWorkSpace\HelloWorld\HelloWorld\point.c(63,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int *”
-F:\CWorkSpace\HelloWorld\HelloWorld\point.c(66,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int *”
-F:\CWorkSpace\HelloWorld\HelloWorld\point.c(68,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int *”
-F:\CWorkSpace\HelloWorld\HelloWorld\point.c(82,31): warning C4474: scanf_s: 格式字符串中传递的参数太多
-F:\CWorkSpace\HelloWorld\HelloWorld\point.c(82,31): message : 占位符和其参数预计 1 可变参数，但提供的却是 2 参数
-F:\CWorkSpace\HelloWorld\HelloWorld\point.c(87,9): warning C4477: “printf”: 格式字符串“%lld”需要类型“__int64”的参数，但可变参数 1 拥有了类型“int”
-F:\CWorkSpace\HelloWorld\HelloWorld\point.c(87,9): message : 请考虑在格式字符串中使用“%d”
-F:\CWorkSpace\HelloWorld\HelloWorld\point.c(87,9): message : 请考虑在格式字符串中使用“%Id”
-F:\CWorkSpace\HelloWorld\HelloWorld\point.c(87,9): message : 请考虑在格式字符串中使用“%I32d”
-F:\CWorkSpace\HelloWorld\HelloWorld\point.c(31,1): warning C4133: “初始化”: 从“char *”到“int *”的类型不兼容
-F:\CWorkSpace\HelloWorld\HelloWorld\point.c(75,1): warning C4133: “初始化”: 从“__int64 *”到“int *”的类型不兼容
-  HelloWorld.vcxproj -> F:\CWorkSpace\HelloWorld\Debug\HelloWorld.exe
+﻿  first.c
+F:\CWorkSpace\HelloWorld\HelloWorld\first.c(16,7): warning C4013: “input”未定义；假设外部返回 int
+F:\CWorkSpace\HelloWorld\HelloWorld\first.c(4,11): warning C4101: “total”: 未引用的局部变量
+  sort.c
+F:\CWorkSpace\HelloWorld\HelloWorld\sort.c(5,32): warning C4013: “sizeif”未定义；假设外部返回 int
+F:\CWorkSpace\HelloWorld\HelloWorld\sort.c(5,10): warning C4477: “scanf_s”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 2 拥有了类型“int”
+F:\CWorkSpace\HelloWorld\HelloWorld\sort.c(5,47): warning C4474: scanf_s: 格式字符串中传递的参数太多
+F:\CWorkSpace\HelloWorld\HelloWorld\sort.c(5,47): message : 占位符和其参数预计 3 可变参数，但提供的却是 6 参数
+F:\CWorkSpace\HelloWorld\HelloWorld\sort.c(6,6): warning C4013: “sort”未定义；假设外部返回 int
+F:\CWorkSpace\HelloWorld\HelloWorld\sort.c(9,30): error C2143: 语法错误: 缺少“)”(在“{”的前面)
+F:\CWorkSpace\HelloWorld\HelloWorld\sort.c(9,6): error C2371: “sort”: 重定义；不同的基类型
+F:\CWorkSpace\HelloWorld\HelloWorld\sort.c(11,9): warning C4013: “change”未定义；假设外部返回 int
+F:\CWorkSpace\HelloWorld\HelloWorld\sort.c(20,6): error C2371: “change”: 重定义；不同的基类型
+F:\CWorkSpace\HelloWorld\HelloWorld\sort.c(22,1): warning C4047: “初始化”:“int *”与“int”的间接级别不同
+F:\CWorkSpace\HelloWorld\HelloWorld\sort.c(23,1): warning C4047: “初始化”:“int *”与“int”的间接级别不同
+  正在生成代码...
