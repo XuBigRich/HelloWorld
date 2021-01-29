@@ -1,51 +1,50 @@
 #include<stdio.h>
 
 void input() {
-	int a, b, c;
-	printf("aµÄµØÖ·Îª%#x,bµÄµØÖ·Îª%#x,cµÄµØÖ·Îª%#x \n",&a,&b,&c);
-	void sort(int *a, int* b, int* c);
-	scanf_s("\r%d %d %d", &a, &b,  &c);
-	sort(&a, &b, &c);
-	printf("%d %d %d \n",a,b,c);
+    int a, b, c;
+    printf("açš„åœ°å€ä¸º%#x,bçš„åœ°å€ä¸º%#x,cçš„åœ°å€ä¸º%#x \n",&a,&b,&c);
+    void sort(int *a, int* b, int* c);
+    scanf("\r%d %d %d", &a, &b,  &c);
+    sort(&a, &b, &c);
+    printf("%d %d %d \n",a,b,c);
 }
 void sort(int* a, int* b, int* c){
-	printf("º¯ÊıÖĞ±äÁ¿aµÄµØÖ·%#d,º¯ÊıÖĞ±äÁ¿bµÄµØÖ·%#d,º¯ÊıÖĞ±äÁ¿cµÄµØÖ·%#d",a,b,c);
-	void change(int *a, int *b);
+    printf("å‡½æ•°ä¸­å˜é‡açš„åœ°å€%#d,å‡½æ•°ä¸­å˜é‡bçš„åœ°å€%#d,å‡½æ•°ä¸­å˜é‡cçš„åœ°å€%#d",a,b,c);
+    void change(int *a, int *b);
 
-	if (*a<*b) {
-		change(a, b);
-	}
-	else if(*a < *c) {
-		change(a, c);
-	}
-	else if (*b < *c) {
-		change(b, c);
-	}
+    if (*a<*b) {
+        change(a, b);
+    }
+    else if(*a < *c) {
+        change(a, c);
+    }
+    else if (*b < *c) {
+        change(b, c);
+    }
 }
 void change(int *a,int *b) {
-	int c;
-	/*int* a_point = a;
-	int* b_point = b;*/
-	int* d;
-	printf("aµÄµØÖ·Îª%#x,bµÄµØÖ·Îª%#x,cµÄµØÖ·Îª%#x  £¨Ö¸ÕëµÄÖ¸Õë£¬µØÖ·µÄµØÖ· ºÍÕı³£ ÔËËãÃ»ÓĞ¹ØÏµ ´Ë´¦»áÔì³ÉÃÔ»ó£©\n", &a, &b, &c);
-	/*printf("a_pointµÄµØÖ·Îª%#x,b_pointµÄµØÖ·Îª%#x 16½øÖÆ \n", a_point, b_point);
-	printf("a_pointµÄµØÖ·Îª%d,b_pointµÄµØÖ·Îª%d 10½øÖÆ \n", a_point, b_point);*/
-	//javaË¼Ïë
-	/*c = a;
-	a = b;
-	b = c;*/
-	//cÓïÑÔË¼Ïë
-	/*c = *a;
-	b_point = a;
-	a_point = b;*/ //a_point Ö¸ÕëµØÖ·ÏÂµÄÖµ  ¸ÄÎªbÖ¸ÕëµØÖ·ÏÂµÄÖµ
-	//printf("a_pointµÄµØÖ·ÏÂµÄÊıÖµ±äÎª%d,b_pointµÄµØÖ·ÏÂµÄÊıÖµ±äÎª%d \n", *a_point, *b_point);
-	//printf("a_pointµÄµØÖ·Îª%#x,b_pointµÄµØÖ·Îª%#x 16½øÖÆ ÇëÏêÏ¸¶Ô±ÈÉÏÃæµÄµØÖ·ÊÇ·ñÓĞ±ä»¯\n", a_point, b_point);
+    int c;
+    /*int* a_point = a;
+    int* b_point = b;*/
+    int* d;
+    printf("açš„åœ°å€ä¸º%#x,bçš„åœ°å€ä¸º%#x,cçš„åœ°å€ä¸º%#x  ï¼ˆæŒ‡é’ˆçš„æŒ‡é’ˆï¼Œåœ°å€çš„åœ°å€ å’Œæ­£å¸¸ è¿ç®—æ²¡æœ‰å…³ç³» æ­¤å¤„ä¼šé€ æˆè¿·æƒ‘ï¼‰\n", &a, &b, &c);
+    /*printf("a_pointçš„åœ°å€ä¸º%#x,b_pointçš„åœ°å€ä¸º%#x 16è¿›åˆ¶ \n", a_point, b_point);
+    printf("a_pointçš„åœ°å€ä¸º%d,b_pointçš„åœ°å€ä¸º%d 10è¿›åˆ¶ \n", a_point, b_point);*/
+    //javaæ€æƒ³
+    /*c = a;
+    a = b;
+    b = c;*/
+    //cè¯­è¨€æ€æƒ³
+    /*c = *a;
+    b_point = a;
+    a_point = b;*/ //a_point æŒ‡é’ˆåœ°å€ä¸‹çš„å€¼  æ”¹ä¸ºbæŒ‡é’ˆåœ°å€ä¸‹çš„å€¼
+    //printf("a_pointçš„åœ°å€ä¸‹çš„æ•°å€¼å˜ä¸º%d,b_pointçš„åœ°å€ä¸‹çš„æ•°å€¼å˜ä¸º%d \n", *a_point, *b_point);
+    //printf("a_pointçš„åœ°å€ä¸º%#x,b_pointçš„åœ°å€ä¸º%#x 16è¿›åˆ¶ è¯·è¯¦ç»†å¯¹æ¯”ä¸Šé¢çš„åœ°å€æ˜¯å¦æœ‰å˜åŒ–\n", a_point, b_point);
 
-	//¸ø Ö¸ÕëaºÍÖ¸ÕëbµÄÖµ¸Ä±äÎ»ÖÃ
-	printf("¸ĞÊÜÖ¸ÕëµØÖ·ÖµµÄ±ä»¯£¬aµØÖ·:%#x,bµØÖ·%#x",a,b);
-	c = *a;
-	*a = *b;
-	*b = c;
-	printf("¸ĞÊÜÖ¸ÕëµØÖ·ÖµµÄ±ä»¯£¬aµØÖ·:%#x,bµØÖ·%#x(×¢Òâ¹Û²ìdebugÀïÃæµÄ Öµ±ä»¯Çé¿ö)", a, b);
+    //ç»™ æŒ‡é’ˆaå’ŒæŒ‡é’ˆbçš„å€¼æ”¹å˜ä½ç½®
+    printf("æ„Ÿå—æŒ‡é’ˆåœ°å€å€¼çš„å˜åŒ–ï¼Œaåœ°å€:%#x,båœ°å€%#x",a,b);
+    c = *a;
+    *a = *b;
+    *b = c;
+    printf("æ„Ÿå—æŒ‡é’ˆåœ°å€å€¼çš„å˜åŒ–ï¼Œaåœ°å€:%#x,båœ°å€%#x(æ³¨æ„è§‚å¯Ÿdebugé‡Œé¢çš„ å€¼å˜åŒ–æƒ…å†µ)", a, b);
 }
-	

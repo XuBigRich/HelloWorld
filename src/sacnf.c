@@ -1,29 +1,29 @@
 #include<stdio.h>
 void whycome(){
-	int h,i;
-	long long g;
-	double k;
-	char l,m,n,o;
-	//scnf_sÊÇÊäÈëµ½µØÖ· £¬&hÊÇÈ¡µ½hµÄÄÚ´æµØÖ·£¬
-	//¶ø hÊÇ±äÁ¿Ãû 
-	//Èç¹û	scanf_s("%d",h); »á±¨´í
-	//°´ÕÕÕûÐÎÀàÐÍÍùÀïÊäÈë£¬CÓïÑÔ»áÑ°Ö·Ò»¸ö16Î»¿Õ¼ä·ÅÖÃh
-	scanf_s("%d",&h);
-	printf("È«²¿µÄ£ºaµÄµØÖ·Îª%d", h);
-	//±íÊ¾Ö»½ÓÊÕÇ°Îå¸öÊýÖµ
-	scanf_s("%5d", &h);
-	printf("ÏÞÖÆ³¤¶ÈÎª5¸öµÄ£ºaµÄµØÖ·Îª%d", h);
-	//¼Ó*ºÅ´ú±íÌø¹ý¸ÃÊäÈë
-	scanf_s("%*d", &h);
-	printf("±»Ê¡ÂÔµÄ aµÄµØÖ·Îª%d", h);
-	//±íÊ¾Ö»½ÓÊÕÇ°4¸öÊýÖµ h½ÓÊÕÇ°Á½¸ö i½ÓÊÕºóÁ½¸ö
-	scanf_s("%2d%2d", &h,&i);
-	printf("ÊäÈëÒ»¸ö³¤¶ÈÎª4µÄ×Ö·û»á±»½ØÈ¡³ÉÇ°Á½¸öÓëºóÁ½¸öh£º%d£¬i£º%d",h,i);
-	//±íÊ¾ÊäÈë³¤ÕûÐÍÊý¾Ý
-	scanf_s("%ld", &g);
-	printf("ÊäÈëÒ»¸ö³¤ÕûÐÍÊý¾Ý%ld", g);
-	//±íÊ¾ÊäÈëË«¾«¶È¸¡µãÊý
-	scanf_s("%lf", &k);
-	printf("ÊäÈëÒ»¸öË«¾«¶È¸¡µãÊý%lf",k);
-	scanchar();
+    int h,i;
+    long long g;
+    double k;
+    char l,m,n,o;
+    //scnf_sæ˜¯è¾“å…¥åˆ°åœ°å€ ï¼Œ&hæ˜¯å–åˆ°hçš„å†…å­˜åœ°å€ï¼Œ
+    //è€Œ hæ˜¯å˜é‡å
+    //å¦‚æžœ	scanf_s("%d",h); ä¼šæŠ¥é”™
+    //æŒ‰ç…§æ•´å½¢ç±»åž‹å¾€é‡Œè¾“å…¥ï¼ŒCè¯­è¨€ä¼šå¯»å€ä¸€ä¸ª16ä½ç©ºé—´æ”¾ç½®h
+    scanf("%d",&h);
+    printf("å…¨éƒ¨çš„ï¼šaçš„åœ°å€ä¸º%d", h);
+    //è¡¨ç¤ºåªæŽ¥æ”¶å‰äº”ä¸ªæ•°å€¼
+    scanf("%5d", &h);
+    printf("é™åˆ¶é•¿åº¦ä¸º5ä¸ªçš„ï¼šaçš„åœ°å€ä¸º%d", h);
+    //åŠ *å·ä»£è¡¨è·³è¿‡è¯¥è¾“å…¥
+    scanf("%*d", &h);
+    printf("è¢«çœç•¥çš„ açš„åœ°å€ä¸º%d", h);
+    //è¡¨ç¤ºåªæŽ¥æ”¶å‰4ä¸ªæ•°å€¼ hæŽ¥æ”¶å‰ä¸¤ä¸ª iæŽ¥æ”¶åŽä¸¤ä¸ª
+    scanf("%2d%2d", &h,&i);
+    printf("è¾“å…¥ä¸€ä¸ªé•¿åº¦ä¸º4çš„å­—ç¬¦ä¼šè¢«æˆªå–æˆå‰ä¸¤ä¸ªä¸ŽåŽä¸¤ä¸ªhï¼š%dï¼Œiï¼š%d",h,i);
+    //è¡¨ç¤ºè¾“å…¥é•¿æ•´åž‹æ•°æ®
+    scanf("%ld", &g);
+    printf("è¾“å…¥ä¸€ä¸ªé•¿æ•´åž‹æ•°æ®%ld", g);
+    //è¡¨ç¤ºè¾“å…¥åŒç²¾åº¦æµ®ç‚¹æ•°
+    scanf("%lf", &k);
+    printf("è¾“å…¥ä¸€ä¸ªåŒç²¾åº¦æµ®ç‚¹æ•°%lf",k);
+    scanchar();
 }

@@ -1,13 +1,13 @@
 #include <stdio.h>
 void scanchar() {
-	char l, m,n,o;
-	printf("\n========================\n");
-	//如果控制串中有非格式字符则输入时也要输入该非格式字符 包括命令结束后的换行\r(系统自动加上去的)
-	//***且对于字符串输入 要在地址参数后面加缓冲区大小
-	scanf_s("\r%c,%c,%c,%c", &l, sizeof(l),&m, sizeof(m), &n, sizeof(n), &o, sizeof(o));
-	printf("input character %c%c%c%c",l,m,n,o);
-	//表示输入一个char类型 注意 空格也属于char类型
-	scanf_s("\r%c%c", &l, sizeof(l), &m, sizeof(m));
-	printf("input character l:%c and m:%c", l, m);
+    char l, m,n,o;
+    printf("\n========================\n");
+    //濡傛灉鎺у埗涓蹭腑鏈夐潪鏍煎紡瀛楃鍒欒緭鍏ユ椂涔熻杈撳叆璇ラ潪鏍煎紡瀛楃 鍖呮嫭鍛戒护缁撴潫鍚庣殑鎹㈣\r(绯荤粺鑷姩鍔犱笂鍘荤殑)
+    //***涓斿浜庡瓧绗︿覆杈撳叆 瑕佸湪鍦板潃鍙傛暟鍚庨潰鍔犵紦鍐插尯澶у皬
+    scanf("\r%c,%c,%c,%c", &l, sizeof(l),&m, sizeof(m), &n, sizeof(n), &o, sizeof(o));
+    printf("input character %c%c%c%c",l,m,n,o);
+    //琛ㄧず杈撳叆涓�涓猚har绫诲瀷 娉ㄦ剰 绌烘牸涔熷睘浜巆har绫诲瀷
+    scanf("\r%c%c", &l, sizeof(l), &m, sizeof(m));
+    printf("input character l:%c and m:%c", l, m);
 
 }

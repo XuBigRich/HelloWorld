@@ -1,23 +1,23 @@
 #include<stdio.h>
 #define PRICE 30;
 int main() {
-	int num, total;
-	num = 0;
-	printf("hello world!  \n");
-	// Êä³ö(¼ÆËã)ÀàĞÍËùÕ¼×Ö½Ú´óĞ¡ ËµÃ÷£ºsizeofÎªÔËËã·û 
-	//second();
-	//¹ØÓÚgitcharºÍputcharµÄÑ§Ï°  CÓïÑÔÃ»ÓĞStringµÄ¸ÅÄî CÓïÑÔÓÃchar[]£¨Êı×é£©À´±íÊ¾ String
-	//get();
-	//¹ØÓÚscanf_sµÄÊ¹ÓÃ   ÓÃµ½µÄÎÄ¼ş£ºsanf.c , scanfchar.c
-	//whycome();
-	//¹ØÓÚÖ¸ÕëµÄÑ§Ï°
-	//point();
-	//ÊäÈëÈÎÒâ3¸öÊı ÅÅĞòÊä³ö
-	//input();
-	//¹ØÓÚÊı×éµÄÑ§Ï°
-	//array();
-	//Ö¸Õë¸½¼ÓÄÚÈİµÄÑ§Ï°
-	//pointadd();
-	//¹ØÓÚÑ­»·Êä³öÊı×éµÄ·½Ê½ Ëù´øÀ´µÄÎÊÌâ
-	arrayissue();
+    int num, total;
+    num = 0;
+    printf("hello world!  \n");
+    // è¾“å‡º(è®¡ç®—)ç±»å‹æ‰€å å­—èŠ‚å¤§å° è¯´æ˜ï¼šsizeofä¸ºè¿ç®—ç¬¦
+    //second();
+    //å…³äºgitcharå’Œputcharçš„å­¦ä¹   Cè¯­è¨€æ²¡æœ‰Stringçš„æ¦‚å¿µ Cè¯­è¨€ç”¨char[]ï¼ˆæ•°ç»„ï¼‰æ¥è¡¨ç¤º String
+    //get();
+    //å…³äºscanf_sçš„ä½¿ç”¨   ç”¨åˆ°çš„æ–‡ä»¶ï¼šsanf.c , scanfchar.c
+    //whycome();
+    //å…³äºæŒ‡é’ˆçš„å­¦ä¹ 
+    //point();
+    //è¾“å…¥ä»»æ„3ä¸ªæ•° æ’åºè¾“å‡º
+    //input();
+    //å…³äºæ•°ç»„çš„å­¦ä¹ 
+    //array();
+    //æŒ‡é’ˆé™„åŠ å†…å®¹çš„å­¦ä¹ 
+    //pointadd();
+    //å…³äºå¾ªç¯è¾“å‡ºæ•°ç»„çš„æ–¹å¼ æ‰€å¸¦æ¥çš„é—®é¢˜
+    arrayissue();
 }
